@@ -3,17 +3,19 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `William Xu`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.williamxu.io`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-postcss", {
+  plugins: ["gatsby-plugin-postcss", 
+  "gatsby-plugin-fontawesome-css",
+  {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
       "trackingId": "G-524PW1HYFY"
-    }
+    },
   }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
