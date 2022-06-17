@@ -10,9 +10,9 @@ const IndexPage = () => {
       <div className="relative bg-white overflow-hidden">
         <div className="absolute top-10 right-0 px-4">
           <div className="block mr-10 space-x-4">
-            <a href="https://github.com/imWillX" className="font-medium text-gray-900">
+            <a href="https://github.com/imWillX" className="font-medium text-gray-500 hover:text-gray-900">
               <FontAwesomeIcon className="mr-1" icon={faGithub}></FontAwesomeIcon>
-              <div className="inline-block text-gray-500 hover:text-gray-900">Github</div>
+              Github
             </a>
             <a href="https://www.linkedin.com/in/imwillx" className="font-medium text-gray-500 hover:text-gray-900">
               <FontAwesomeIcon className="mr-1" icon={faLinkedin}></FontAwesomeIcon>
