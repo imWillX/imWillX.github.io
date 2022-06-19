@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
   plugins: ["gatsby-plugin-postcss", 
   "gatsby-plugin-fontawesome-css",
   {
-    resolve: 'gatsby-plugin-google-analytics',
+    resolve: 'gatsby-plugin-google-gtag',
     options: {
       "trackingId": "G-524PW1HYFY"
     },
